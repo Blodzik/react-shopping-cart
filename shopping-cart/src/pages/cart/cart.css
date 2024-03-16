@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart-title {
+    text-align: center;
+    font-size: 40px;
+    color: hsl(265, 75%, 47%);
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-image {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.cart-item {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.description {
+    display: flex;
+    align-items: start;
+    font-size: 25px;
+    color: hsl(265, 75%, 47%);
+}
+
+.countHandler button {
+    background-color: white;
+    border: 2px solid hsl(265, 75%, 47%);
+    color: hsl(265, 75%, 47%);
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.countHandler button:hover {
+    background-color: hsl(265, 75%, 47%);
+    color: white;
+}
+
+.countHandler input {
+    text-align: center;
+    font-size: 17px;
+    color:hsl(265, 75%, 47%);
+    border: 2px solid hsl(265, 75%, 47%);
+    border-left: none;
+    border-right: none;
+}
